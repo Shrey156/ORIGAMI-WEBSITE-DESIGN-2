@@ -1,0 +1,55 @@
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    flex-basis:5900%;
+    justify-content:space-between;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.oragami{
+    border-radius: 20px;
+    background-color:silver;
+
+    width: 310px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.bodyimg{
+    position: relative;
+    text-align: center;
+}
+
+.introductionHead{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 34%;  
+    font-style: italic; 
+}
+
+.introduction{
+    position: absolute;
+    color: white;
+    top:40%;
+    left:1%;
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(59, 54, 54);
+}
